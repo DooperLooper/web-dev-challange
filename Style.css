@@ -1,10 +1,21 @@
+
 body {
+	margin: 0px;
+	height: 100%;
+}
+
+.gray {
+	background-color: darkslategray;
+	height: 95.2vh;
+	padding: 20px;
+}
+.color {
 	background: linear-gradient(-45deg, #ee3902, #ee7752, #ebeb00);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height:94.2vh;
+	padding: 3px;
 }
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -16,13 +27,18 @@ body {
 		background-position: 0% 50%;
 	}
 }
+.gray2 {
+	background-color: darkslategray;
+	height: 89.3vh;
+	padding: 20px;
+}
 .name-box {
 	display:block;
 	width: 80%;
 	background-color: rgba(255, 255, 255, 0.50);
 	margin: auto; 
 	padding: 20px;
-	max-width: 500px;
+	max-width: 75vh;
 	border: 5px gray;
   }
 h1, p{
